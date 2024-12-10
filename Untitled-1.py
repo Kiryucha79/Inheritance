@@ -8,7 +8,6 @@ class Mentor:
     def getFullName(self):
         return (self.firstName + ' ' + self.lastName)
 
-
 # производный класс:
 class Lecturer(Mentor):
     def __init__(self, firstName, lastName, Course):
@@ -28,7 +27,6 @@ class  Reviewer(Mentor):
     def getExperts(self):
         return self.Experts
 
-
 lecturer1 = Lecturer("Тимур", "Анвартдинов", "Python, знакомство с консолью")
 print(lecturer1.firstName, lecturer1.lastName, lecturer1.Course)
 
@@ -38,19 +36,17 @@ print(lecturer2.firstName, lecturer2.lastName, lecturer2.Course)
 lecturer3 = Lecturer("Алёна", "Батицкая", "GIT - система контроля версий")
 print(lecturer3.firstName, lecturer3.lastName, lecturer3.Course)
 
-
-
 reviewer1 = Reviewer("Ксения", "Дементьева", "Python, знакомство с консолью")
-print(Reviewer1.firstName, Reviewer1.lastName, Reviewer1.Experts)
+print(reviewer1.firstName, reviewer1.lastName, reviewer1.Experts)
 
 reviewer2 = Reviewer("Олег", "Пустовалов", "Python, знакомство с консолью")
-print(Reviewer2.firstName, Reviewer2.lastName, Reviewer2.Experts)
+print(reviewer2.firstName, reviewer2.lastName, reviewer2.Experts)
 
 reviewer3 = Reviewer("Сергей", "Быков", "Python, знакомство с консолью")
-print(Reviewer3.firstName, Reviewer3.lastName, Reviewer3.Experts)
+print(reviewer3.firstName, reviewer3.lastName, reviewer3.Experts)
 
 reviewer4 = Reviewer("Денис", "Рудаков", "Python, знакомство с консолью")
-print(Reviewer4.firstName, Reviewer4.lastName, Reviewer4.Experts)
+print(reviewer4.firstName, reviewer4.lastName, reviewer4.Experts)
 
 reviewer5 = Reviewer("Алёна", "Батицкая", "GIT - система контроля версий")
-print(Reviewer5.firstName, Reviewer5.lastName, Reviewer5.Experts)
+print(reviewer5.firstName, reviewer5.lastName, reviewer5.Experts)
