@@ -40,17 +40,17 @@ print(lecturer3.firstName, lecturer3.lastName, lecturer3.Course)
 
 
 
-Reviewer1 = Reviewer("Ксения", "Дементьева", "Python, знакомство с консолью")
+reviewer1 = Reviewer("Ксения", "Дементьева", "Python, знакомство с консолью")
 print(Reviewer1.firstName, Reviewer1.lastName, Reviewer1.Experts)
 
-Reviewer2 = Reviewer("Олег", "Пустовалов", "Python, знакомство с консолью")
+reviewer2 = Reviewer("Олег", "Пустовалов", "Python, знакомство с консолью")
 print(Reviewer2.firstName, Reviewer2.lastName, Reviewer2.Experts)
 
-Reviewer3 = Reviewer("Сергей", "Быков", "Python, знакомство с консолью")
+reviewer3 = Reviewer("Сергей", "Быков", "Python, знакомство с консолью")
 print(Reviewer3.firstName, Reviewer3.lastName, Reviewer3.Experts)
 
-Reviewer4 = Reviewer("Денис", "Рудаков", "Python, знакомство с консолью")
+reviewer4 = Reviewer("Денис", "Рудаков", "Python, знакомство с консолью")
 print(Reviewer4.firstName, Reviewer4.lastName, Reviewer4.Experts)
 
-Reviewer5 = Reviewer("Алёна", "Батицкая", "GIT - система контроля версий")
+reviewer5 = Reviewer("Алёна", "Батицкая", "GIT - система контроля версий")
 print(Reviewer5.firstName, Reviewer5.lastName, Reviewer5.Experts)
